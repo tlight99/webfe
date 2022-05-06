@@ -1,0 +1,78 @@
+HTML 파일의 확장자명은
+파일명,html
+alt + L + O --페이지 실행 키
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문단태그</title>
+</head>
+<body>
+    <p><ins>인생은</ins> <strong>실전</strong>이다.</p>
+    <span>오늘</span> 할 일을 <em>내일</em>로 <i><sup>미루지</sup></i> 말라.
+    <mark><sub>착하게</sub></mark> <del>살자</del>.
+
+    <p>
+        착하게&nbsp;착하게착하게<br/>착하게&lt착하게&gt착하게
+    </p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <p>이름 : <input type="text" placeholder="이름을 입력해 주세요" value="이태경"/>
+    </p>
+    <p>암호 : <input type="password"/></p>
+
+</body>
+</html>
+
+<키 모음집>
+placeholder = 값을 입력 전 보여줄 메시지
+value = 값이 이미 입력되어있다
+required = 해당 값이 없을 때 페이지를 넘길 수 없음
+readonly = 값 쓰기가 불가능하고 오직 읽기만 가능
+div = 사이트의 레이아웃(전체적인 틀)을 만들때 주로 사용합니다. div는 웹페이지에서 논리적 구분을 정의하는 태그입니다. div 태그를 사용하여 각각의 블록(공간)을 알맞게 배치하고 CSS를 활용하여 스타일을 적용할 수 있습니다.
+p = 문장을 단락하여 <p> 요소의 위쪽과 아래쪽에 약간의 여백을 추가합니다.
+<img src="./img/images.jpg" alt="kyle" /> = img(그림 이미지 구현), src(해당 이미지 이동 사이트), alt(이미지 내용 설명, 이미지가 뜨지 않았을 때 대체 되는 글, 쓰지 않는다면 스크린리더를 고려하지 않는다)
+<a href="./"> </a> = 다른(이전) 페이지로 이동
+<input =""/> = input은 괄호 안에 입력한다 함수 두 번 입력 없다
+<input type="password"/> = 비밀번호 입력시 *로 표시된다
+<button>로그인</button> = 로그인 버튼이 표시된다
+span = 특정 구간을 구분한다, 레이아웃에 특정 표시된다
+b, strong = 강조, 굵은 포인트, h3 굵기이다
+h1~h6 = 제목 태그, 폰트 크기, 굵기, 위 아래 공간, 숫자가 내려갈 수록 커진다, h1이 제일 크다, h6가 제일 작다
+em, i = 폰트 기울기
+mark = 형광색
+del = 가운데 밑줄
+ins = 밑줄
+sup = 위 첨자
+sub = 아래 첨자
+<br/> = 줄 바꿈, 개행
+&nbsp; = 띄어쓰기
+&lt, &gt = <글자>
+주석 = <!-- -->
+<select> 
+        <option>농구</option>
+        <option>족구</option>
+        <option>축구</option>
+        <option>피구</option>
+        <option>풋살</option>
+</select> = 필터 내림 모양(목록 생성)으로 표시된다, 하위 옵션을 선택하면 그것이 select의 value가 된다
+a = 링크, 페이지 이동
+<input type="checkbox"/>본인 = 본인의 클릭할 수 있는 체크박스가 생긴다
+<a href="./seongyong.html" title="짱짱">페이지 이동</a> = title(href 내용에 마우스를 갖다대면 해당 페이지 내용의 제목이 나온다)
+<label><input type="radio" name="gender" />남자</label> <!--글자를 눌러도 체크된다-->
+<a href="https://www.naver.com" target="_blank">네이버로 이동</a> = 여기서 target="_blank"는 추가로 창을 만들어 페이지를 이동시켜 준다
