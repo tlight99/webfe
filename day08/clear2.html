@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear2</title>
+    <style>
+        ul{
+            padding: 15px 20px;
+            background-color: silver;
+         /* display: flow-root; */
+        }
+        ul:after{       /* display: flow-root; 와 같은 코드*/
+            content: "";
+            display: block;
+            clear: both;
+        } 
+        ul > li{
+            float: left;
+            margin: 5px;
+            padding: 5px 10px;
+            background-color: pink;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>float1</li>
+        <li>float2</li>
+        <li>float3</li>
+    </ul>
+</body>
+</html>

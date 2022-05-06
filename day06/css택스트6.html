@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css택스트6</title>
+    <style>
+        .content{border: 3px solid #f00;
+                width: 700px;
+                padding: 10px;
+                white-space: nowrap; /*공백 줄바꿈을 처리하는데 nowrap을 줄바꿈을 하지 않고 공백 허용x ||| 연속공백 허용 pre*/
+                overflow: hidden; /*스크롤을 보이지 않게한다*/
+                text-overflow: ellipsis;  /*말 줄임표(...)*/
+        }
+
+        .content:hover{
+            overflow: visible; /*border 안에 마우스를 갖다대면 해당 내용이 추가로 나온다*/
+        }
+    </style>
+</head>
+<body>
+    <h2>css택스트6</h2>
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sequi fuga optio tempore quasi beatae iste amet, fugiat repellat, consequuntur facere adipisci unde ipsum nemo quisquam, distinctio commodi dolorum expedita! 
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dignissimos dicta voluptatibus nam veritatis iste pariatur magnam! Sint, est dolorum? Nobis facilis tempore quibusdam temporibus enim voluptate velit architecto autem?</p>
+</body> 
+</html>

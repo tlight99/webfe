@@ -1,0 +1,76 @@
+div = 빈 박스, 하나의 구역
+p = 한 줄 단위, 위아래 공간이 생긴다
+span = 단어 단위(특정 구간을 분간한다)
+
+form 태그
+웹 페이지에서 사용자로 부터 입력을 받아 처리쪽으로 보내줄 때 사용하는 태그
+사용자가 입력한 데이터를 서버쪽으로 보낼 때 form 요소 사용
+
+<form action="/login" method = "GET(POST)">
+
+    <p>아이디: <input type="text"></p>
+    <p>암호: <input type="password"></p>
+    <button type="submit">로그인</button>
+
+
+</form>
+
+
+method 방식
+    get = url에 데이터를를 저장하여 전송하는 방식(query, param)
+    post = body에 데이터를 저장하여 전송하는 방식(body)
+
+query = code="2123332" 로 보내는 방식
+param = /123332/ 로 보내는 방식
+body = 통째로 보내는 방식
+
+
+file = 원하는 파일을 선택하여 서버로 전송하는 입력 상자
+email = 이메일을 입력받는 글 상자 @가 없으면 제출되지 않음
+url = 웹사이트 입력받는 글 상자(http로 시작 ,url)
+tel = 전화번호 입력난 글 상자
+input = 속성
+size = 박스의 크기를 설정하는 속성
+maxlength = 값의 최대 길이를 설정하는 속성
+checked = 미리 선택되어있는 옵션을 설정하는 속성(checkbox, radio)
+
+textarea
+글 상자
+
+<textarea> cols = "가로 글자 수" rows = "세로 글자 수"></textarea>
+
+ul 과 ol
+
+    <ul>
+        <li>content1</li>      <!-- 순서가 없는 목록(list) 태그 -->
+        <li>content2</li>
+    </ul>
+    <ol type="A" start="3">    <!-- 순서가 있는 목록(list) 태그 -->
+        <li>content1</li>
+        <li>content2</li>
+    </ol>
+
+table = 여러 종류의 데이터를 보기 좋게 정리하여 보여주는 표(엑셀)
+
+<body>
+    <table border="1" width="70%" align="center"> border = 테두리 width = 가로길이(%, px) align = 정렬(center, right, left)
+        <caption>테이블</caption>
+        <tr height="30px"> = 각 테이블의 층(row)
+            <th>content1</th> = 제목
+            <th>content1</th>
+            <th>content1</th>
+            <th>content1</th>
+            <th>content1</th>
+        </tr>
+        <tr>
+            <td align="center">content1</td> = 데이터
+            <td>content1</td>
+            <td>content1</td>
+            <td colspan="2">content1</td> rowspan = 세로방향 colspan = 가로방향 width = 길이 height = 높이
+        </tr>
+
+iframe
+
+<iframe src="삽입할 페이지 주소 또는 문서 위치" width, height>
+</iframe>
+
